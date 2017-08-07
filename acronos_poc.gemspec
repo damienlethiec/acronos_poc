@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Great gem for test}
   spec.description   = %q{This gem is gonna rock the world with impressive generators}
-  spec.allowed_push_host = "http://mygemserver.com"
+  spec.allowed_push_host = "https://rubygems.org/"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
