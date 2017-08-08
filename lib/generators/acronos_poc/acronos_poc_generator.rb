@@ -6,6 +6,6 @@ class AcronosPocGenerator < Rails::Generators::Base
   argument :method_name, type: :string, default: "index"
 
   def generate_view
-    template "#{method}.html.erb", "app/views/#{controller}/#{method}.html.erb"
+    template "#{method_name}.html.erb", "app/views/#{resource_name}/#{method_name}.html.erb"
   end
 end
